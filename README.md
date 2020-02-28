@@ -2,9 +2,9 @@
 
 Linux process environment allows to extract interesting information about used commands and directories, users, system variables, SSH connection, etc.
 
-The SSH information extracted from a process is really interesting since it allows to know the ip from where the access occurred, datatimes, etc.
+The SSH information extracted from a process is really interesting since it allows to know the ip from where the access occurred, datetimes, etc.
 
-It is necessary not to kill a suspicious process since important information can be destroyed.
+**It is necessary not to kill a suspicious process since important information can be destroyed.**
 
 ```/proc/<pid>/environ```
 
