@@ -94,7 +94,9 @@ For process details. As parent PIDs ... memory usage ...
 cat /proc/<PID>/status
 ```
 
-**Example Extraction: extract.txt**
+**Example Extraction with process_forensics.sh: extract.txt**
+
+> In this example the process are execute via ssh local... not is a good example ;-(
 
 pid|command|path|oldpath|args|sha1|ipsrc|portsrc|ipdst|portdst
 
